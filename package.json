@@ -4,10 +4,10 @@
   "description": "EuDGC (European Digital Green Certificate) handling in Javascript and Typescript",
   "main": "dist/eudgc.js",
   "scripts": {
-    "watch": "npx webpack serve --mode=development",
-    "serve": "npx webpack serve --mode=development",
-    "build": "npx webpack --mode=production && cp dist/eudgc.js docs",
-    "prepublishOnly": "npx webpack --mode=production && cp dist/eudgc.js docs",
+    "watch": "webpack serve --mode=development",
+    "serve": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "prepublishOnly": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
